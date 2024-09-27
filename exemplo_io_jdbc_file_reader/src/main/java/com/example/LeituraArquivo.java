@@ -5,11 +5,11 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class LeituraArquivo {
-     public void teste() {
+    String src_file = "C:\\Users\\DevTarde\\Documents\\Diogo\\Tarde\\JavaProjectsTarde\\dados.txt";
+    
+    public void teste() {
         try (BufferedReader br = new BufferedReader(
-                new FileReader(
-                    "C:\\Users\\DevTarde\\Documents\\Diogo\\Tarde\\JavaProjectsTarde\\dados.txt"
-                    ))) {
+                new FileReader(src_file))) {
             String linha;
             while ((linha = br.readLine()) != null) {
                 System.out.println(linha);
@@ -19,5 +19,3 @@ public class LeituraArquivo {
         }
     }
 }
-
-
