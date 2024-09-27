@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import com.example.Calculadora;
 
-public class CalculadoraTeste {
+public class CalculadoraTest {
     Calculadora calculadora = new Calculadora();
 
     @Test
